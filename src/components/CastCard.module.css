@@ -1,0 +1,28 @@
+.castImg {
+  display: inline-block;
+  /* margin: 1rem; */
+  object-fit: cover;
+  width: 318px !important;
+  height: 477px !important;
+}
+.card {
+  border: 1px solid white;
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+.card_body {
+  background-color: rgba(128, 128, 128, 0.567);
+  padding: 0.5rem 1rem;
+}
+.card_title {
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+.card_text {
+  font-style: italic;
+  text-align: center;
+}

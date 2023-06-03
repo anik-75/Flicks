@@ -1,0 +1,27 @@
+.row_container {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin: 20px;
+}
+.row_container::-webkit-scrollbar {
+  display: none;
+}
+
+.movie_poster {
+  display: inline-block;
+  width: 1000px;
+  margin-right: 1rem;
+  transition: 0.3s;
+}
+.movie_poster img {
+  display: inline-block;
+  max-height: 20rem;
+  object-fit: cover;
+}
+.movie_poster:hover {
+  transform: scale(1.3);
+}
+.title {
+  margin: 0 1rem;
+}
